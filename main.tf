@@ -8,7 +8,7 @@ terraform {
 }
 variable "do_token" {}
 variable "do_count" {default = 4}
-variable "vpc_ip_range" {default = "10.10.10.0/24"}
+variable "vpc_ip_range" {default = "10.106.0.0/20"}
 variable "gateway_size" {default = "s-4vcpu-8gb"}
 variable "back_size" {default = "s-4vcpu-8gb"}
 variable "pass" {}
